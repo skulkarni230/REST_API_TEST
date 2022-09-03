@@ -8,7 +8,7 @@ public class ComplexJson {
 		
 		JsonPath js = new JsonPath(payloads.CoursePrice());
 		
-		//get number of courses
+		//get number of courses test UPDATE FROM LOCAL
 		int courseCount = js.getInt("courses.size()");
 		System.out.println(courseCount);
 		
