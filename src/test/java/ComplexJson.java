@@ -12,7 +12,7 @@ public class ComplexJson {
 		int courseCount = js.getInt("courses.size()");
 		System.out.println(courseCount);
 		
-		// get purchase amount 
+		// get purchase amount UPDATE from UI
 		int purchaseAmount = js.getInt("dashboard.purchaseAmount");
 		System.out.println(purchaseAmount);
 		
