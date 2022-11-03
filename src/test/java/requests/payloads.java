@@ -94,6 +94,14 @@ public class payloads {
 				"\"author\":\""+author+"\"\n" +
 				"}";
 	}
-
+	
+	public static String getAuthentication(String ip, String uname, String pass)
+	{
+		return "{\r\n"
+				+ "  \"ipAddress\": \""+ip+"\",\r\n"
+				+ "  \"password\": \""+uname+"\",\r\n"
+				+ "  \"userIdentifier\": \""+pass+"\"\r\n"
+				+ "}";
+	}
 
 }
